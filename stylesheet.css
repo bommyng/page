@@ -1,0 +1,339 @@
+.mywork {
+  font-weight:700;  
+  letter-spacing:1px;  
+  white-space:nowrap; 
+  padding-bottom:13px;
+  font-family:'The Bold Font';
+  color:var(--slateblue)!important;
+  font-size:8vh;
+  z-index:5;
+  position: absolute;
+}
+.mywork:before {
+  background-color: #C9CAF8;
+  content: '';
+  display: block;
+  height: 20px;
+  width: 20px;
+  left:-5px;
+  top:-10px;
+  position:relative;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  z-index:-1
+}
+.mywork:after {
+  background-color: #C9CAF8;
+  content: '';
+  display: block;
+  height: 20px;
+  width: 20px;
+  left:170px;
+  top:0;
+  position:relative;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  z-index:-1
+}
+.myself {
+  font-weight:700;  
+  letter-spacing:1px;  
+  white-space:nowrap; 
+  padding-bottom:13px;
+  font-family:'The Bold Font';
+  color:#EBEEFF!important;
+  font-size:8vh;
+  z-index:5;
+  position: absolute;
+
+}
+.myself:before {
+  background-color: #C1CEFE;
+  content: '';
+  display: block;
+  height: 20px;
+  width: 20px;
+  left:-5px;
+  top:-10px;
+  position:relative;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  z-index:-1
+}
+.myself:after {
+  background-color:#C1CEFE;
+  content: '';
+  display: block;
+  height: 20px;
+  width: 20px;
+  left:170px;
+  top:0;
+  position:relative;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  z-index:-1
+}
+
+/*---------------------*/
+.menu-banner {
+  background-color:#3e48f0;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.menu-banner01 {
+  background-color:#e1a5c1;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bg {
+  background: linear-gradient(107deg, rgba(249,244,237,1) 0%, rgba(245,190,190,1) 100%);
+}
+a {
+  text-decoration: none!important;
+  color: inherit !important;
+}
+.section1-1 {
+  background-color:#f6efef;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 105px 0px 80px 0px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.section1-2 {
+  background-color:#f6efef;
+  padding: 105px 0px 80px 0px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.mid-background {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 50;
+  z-index: 1; 
+}
+
+.container svg {
+  width:inherit;
+  height:inherit;
+}
+.svg-input > svg{
+  z-index: 1;
+  position:static;
+
+}
+.custom-shape-divider-bottom-1699334484 {
+  bottom: -1px!important;
+  width: 101%!important;
+}
+.job-title {
+  font-size: 6vw;
+  font-weight: 800;
+  background:-webkit-linear-gradient(45deg, #e0a5c1 , #f4dae4 98%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  font-family:'Louis George Cafe Light';
+  animation-duration: 2s;
+  position:relative;
+  z-index: 2;
+}
+.job-subtitle {
+  font-size: 20px;
+  font-weight: 800;
+  color: #d8a1c5 ;
+  font-family:'Louis George Cafe Light';
+  animation-duration: 2s;
+  position:relative;
+  z-index: 2;
+}
+
+  /* Change the link color to #111 (black) on hover */
+
+
+
+/*-------Loader*--------*/
+
+
+ 
+
+/*----------Section 2-----------*/
+.section2 {
+  background-color:#F6F2F8;
+
+  padding: 105px 0px 80px 0px;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  font-family:'Louis George Cafe';
+}
+/*----------Section 3-----------*/
+.section3 {
+  background-color:var(--slateblue);
+  padding: 105px 0px 80px 0px;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  font-family:'Louis George Cafe';
+}
+/*---------------------*/
+.img-holder > img{
+position:absolute;
+z-index:2;
+}
+.custom-shape-divider-bottom-1699334484 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1699334484 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 157px;
+}
+
+.custom-shape-divider-bottom-1699334484 .shape-fill {
+  fill: #F6F2F8;
+}
+
+
+
+.form-control {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #172432;
+}
+
+button {
+  display: inline-block;
+  background-color: #172432;
+  border: none;
+  color: #ddd;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/*----Arrow---*/
+
+
+.arrow {
+  position: absolute;
+  z-index:3;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: rotate(0deg);
+  cursor: pointer;
+}
+
+.arrow span {
+  display: block;
+  width: 1.5vw;
+  height: 1.5vw;
+  border-bottom:  5px solid pink;
+  border-right: 5px solid pink;
+  transform: rotate(45deg);
+  margin: -20px;
+  animation: animate 2s infinite;
+  position:relative;
+  top:-13vh;
+}
+
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+      transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+/*----------------*/
+@media only screen and (min-width: 767px) {
+  #mobile-screen, .mobile-screen {
+    display:none
+  }
+
+}
+@media only screen and (max-width: 766px) {
+  #big-screen, .big-screen {
+    display:none
+  }
+}
+@keyframes animation01{
+  from {font-size: 4.4em;
+    font-weight: 800;
+    background:-webkit-linear-gradient(45deg, #f4dae4 99%, #e0a5c1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   }
+  to {font-size: 4.4em;
+    font-weight: 800;
+    background:-webkit-linear-gradient(45deg, #e0a5c1 , #f4dae4 99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+}
+@keyframes animation02{
+  from {color: #e1a5c1;}
+  to {color: -webkit-linear-gradient(45deg, #e0a5c1 , #f4dae4 80%);}
+}
+
+
+/*---Fonts----*/
+@font-face {
+  font-family:'Starborn';
+  src:url("/Users/bommy/Library/CloudStorage/GoogleDrive-nkn1803@gmail.com/My Drive/Learning/bommy-page/page/font/starborn/Starborn.ttf")
+}
+@font-face {
+    font-family:'The Bold Font';
+    src:url("font/the_bold_font/THE BOLD FONT - FREE VERSION - 2023.ttf")
+    
+  }
+@font-face {
+    font-family:'Louis George Cafe';
+    src:url("/Users/bommy/Library/CloudStorage/GoogleDrive-nkn1803@gmail.com/My Drive/Learning/bommy-page/page/font/louis_george_cafe/Louis George Cafe.ttf")
+}
+@font-face {
+    font-family:'Louis George Cafe Bold';
+    src:url("/Users/bommy/Library/CloudStorage/GoogleDrive-nkn1803@gmail.com/My Drive/Learning/bommy-page/page/font/louis_george_cafe/Louis George Cafe Bold.ttf")
+}
+@font-face {
+  font-family:'Louis George Cafe Light';
+  src:url("/Users/bommy/Library/CloudStorage/GoogleDrive-nkn1803@gmail.com/My Drive/Learning/bommy-page/page/font/louis_george_cafe/Louis George Cafe Light.ttf")
+}

@@ -1,0 +1,45 @@
+.myname {
+    font-weight:700;  
+    letter-spacing:1px;  
+    white-space:nowrap; 
+    padding-bottom:13px;
+    font-family:'The Bold Font';
+    color:var(--slateblue)!important;
+    font-size:6vh;
+    z-index:2;
+    position:relative
+  }
+
+  .myname:before {
+    background-color: #C9CAF8;
+    content: '';
+    display: block;
+    height: 20px;
+    width: 20px;
+    left:-5px;
+    top:-10px;
+    position:relative;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    z-index:-1
+  }
+  .myname:after {
+    background-color: #C9CAF8;
+    content: '';
+    display: block;
+    height: 20px;
+    width: 20px;
+    left:170px;
+    top:0;
+    position:relative;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    z-index:-1
+  }
+
+.title-des{
+    font-size:2vh;
+    position:absolute;
+    z-index: 2;
+
+}
