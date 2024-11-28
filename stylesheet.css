@@ -144,7 +144,7 @@ a {
 .job-title {
   font-size: 6vw;
   font-weight: 800;
-  background:-webkit-linear-gradient(45deg, #e0a5c1 , #f4dae4 98%);
+  background:-webkit-linear-gradient(45deg, var(--slateblue) , var(--delftblue) 98%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;

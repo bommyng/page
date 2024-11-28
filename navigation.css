@@ -8,9 +8,7 @@
 .name-logo {
     font-size: 30px;
     font-weight: 800;
-    background: -webkit-linear-gradient(45deg, #e0a5c1 , #7d6dde 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color:var(--delftblue);
     margin: 0;
     font-family:'Starborn';
     animation-duration: 2s;
