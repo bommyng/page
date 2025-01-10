@@ -24,6 +24,6 @@
   --ticklepink: #F88DAD;
   --primary-color: #0F0E24;
   --secondary-color: #2B2D41;
-  --primary-text-color: #F74A57;
+  --prim-text-color: #F74A57!important;
   --box-color: #2B2D41;
 }
