@@ -140,7 +140,7 @@ a {
   margin-bottom: 5px;
   position: relative;
 
-  background: #7d6dde;
+  background: #F74A57;
   border-radius: 3px;
 
   z-index: 1;
@@ -167,13 +167,13 @@ a {
 #menuToggle input:checked~span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: -webkit-linear-gradient(45deg, white, #7d6dde 98%);
+  background: -webkit-linear-gradient(45deg, #100E24, #100E24 98%);
 }
 
 
 
 .say-hello {
-  color: #cbc9e2;
+  color: white;
   letter-spacing: 0.25em;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
@@ -208,9 +208,9 @@ nav ul {
   width: 300px;
   margin: -100px 0 0 0;
   padding: 30px;
-  padding-top: 125px;
+  padding-top: 100px;
 
-  background: rgba(255, 255, 255, 0.8);
+  background: rgb(247, 74, 87);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -246,7 +246,7 @@ nav ul {
 #menu {
   position: absolute;
   width: 250px;
-  margin: -45px 90px 0 -50px;
+  margin: -45px 90px 0 -200px;
   padding: 50px;
   padding-top: 85px;
   list-style-type: none;
